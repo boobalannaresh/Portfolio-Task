@@ -79,7 +79,7 @@ export const Navbar = () => {
           </li>
           <li className="nav__list-item">
             <ListItemButton
-              href="https://drive.google.com/file/d/1O7O6dgBNriadNFoYRj8kHr6-dyPyoG4n/view?usp=sharing"
+              href="https://drive.google.com/file/d/1_3wSbSijwL-Qwn0nElY5a4YDkc5B2JP6/view?usp=sharing"
               onClick={toggleNavList}
               className="link link--nav"
               target="_blank"
