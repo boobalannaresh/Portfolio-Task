@@ -1,0 +1,61 @@
+ .header {
+    display:flex;
+    flex-wrap:nowrap;
+    
+    justify-content: space-between;
+    width:80%;
+    margin: 0px auto;
+  }
+  
+
+  
+  .naresh-logo{
+    width: 200px;
+ 
+  }
+
+  /* .navbar-header{
+    display:flex;
+  } */
+
+  @media (max-width: 900px) {
+    .header {
+      display:flex;
+      flex-wrap:nowrap;
+      width:90%;
+      justify-content: space-between;
+      margin: 0px auto;
+    } 
+    .naresh-logo{
+  width: 120px;
+     }
+  } 
+
+  @media (max-width: 800px) {
+    .header {
+      display:flex;
+      flex-wrap:nowrap;
+      justify-content: space-between;
+      margin: 0px ;
+    } 
+    .naresh-logo{
+    max-width: 120px;
+     }
+
+  } 
+
+  @media (max-width: 750px) {
+    .header {
+      display:flex;
+      flex-wrap:nowrap;
+      gap: 0px;
+      margin: 0px ;
+    } 
+    .naresh-logo{
+    width: 150px;
+    margin-left:20px;
+     }
+
+  } 
+
+  
