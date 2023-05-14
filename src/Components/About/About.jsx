@@ -29,7 +29,7 @@ export const About = () => {
 
           </div>
 
-          <div className="about__contact center" style={{ marginRight: "250px", marginLeft:"150px" }}>
+          <div className="about__contact center" >
             <a
               href="https://github.com/boobalannaresh"
               aria-label="github"
@@ -83,13 +83,14 @@ export const About = () => {
         </div>
 
         <div data-aos="fade-right" className="lottiefiles">
+
           <Player
             autoplay
             loop
             src="https://assets7.lottiefiles.com/private_files/lf30_FQVNNa.json"
-        
           >
           </Player>
+
         </div>
         
       </div>

@@ -22,8 +22,9 @@ export const Introduction = () => {
               />
             </div>
             <div className="introduction_datacontainer">
+             
               <h4>
-              I seek to work in a competitive field and ready to accept the
+              {""}{""}{""}I seek to work in a competitive field and ready to accept the
                 <span className="different"> challenges, utilizing my skills </span> would like to work with a 
                 <span className="different">
                 {""} highly esteemed company
@@ -34,48 +35,14 @@ export const Introduction = () => {
                 {""} benefit of company and myself.
                 </span>
               </h4>
-
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                Born: 16 Oct 1995
-              </h4>
-
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                Department: IT
-              </h4>
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                Degree: Mechanical Engineering
-              </h4>
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                Nationality: Indian
-              </h4>
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                Language: Tamil & English
-              </h4>
-
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                City: Vellore, TamilNadu, India
-              </h4>
+              <br/>
+             <br />
               
               <h4>I Started off my self-learning journey with online tutorials Google, YouTube, etc and took a step further and Enrolled in the GUVI IIT MADRAS Fullstack developer Program which involved extensive programming and real world projects. Later, I learned MERN Stack From Guvi and built an Website using React JS, Node, Express Js, MongoDB.</h4>
-              
+              <br/>
+              <br/>
+              <br/>
+              <br/>
             </div>
           </div>
         </div>

@@ -7,6 +7,7 @@
   max-width: 100%;
   /* min-height: 100vh; */
   margin: 0 auto;
+  
 }
 
 .light {
@@ -14,8 +15,8 @@
   --clr-bg-alt: #fff;
   --clr-fg: #555;
   --clr-fg-alt: #444;
-  --clr-primary: #b5295a;
-  --shadow: rgba(135, 5, 120, 0.544) 0px 7px 29px 0px;
+  --clr-primary: #961441;
+  --shadow: rgba(135, 124, 5, 0.544) 0px 7px 29px 0px;
 }
 
 .dark {

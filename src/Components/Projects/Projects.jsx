@@ -19,7 +19,7 @@ import { BsBootstrap } from "react-icons/bs";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io";
-import BookMyShow from "../../assets/BookMyShow.jpg";
+import BookMyShow from "../../assets/BookMyShow.png";
 import pizza from "../../assets/pizza.png";
 
 export const Projects = () => {
@@ -50,7 +50,7 @@ export const Projects = () => {
                   <SiExpress color="68A063"/>
                 </div>
                 <div>
-                  <a
+                  <a style={{textDecoration:"none"}}
                     href="https://github.com/boobalannaresh/guvi-hackathon2-frontend"
                     target="_blank"
                     rel="noreferrer"
@@ -59,7 +59,7 @@ export const Projects = () => {
                       FrontEnd
                     </span>
                   </a>
-                  <a
+                  <a style={{textDecoration:"none"}}
                     href="https://github.com/boobalannaresh/guvi-hackathon2-backend"
                     target="_blank"
                     rel="noreferrer"
@@ -68,13 +68,13 @@ export const Projects = () => {
                       BackEnd
                     </span>
                   </a>
-                  <a
+                  <a style={{textDecoration:"none"}}
                     href="https://guvi-hackathon2-frontend-ten.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span
-                      style={{ paddingRight: "25px", paddingLeft: "25px" }}
+                      
                       type="button"
                       className="btns onbt"
                     >
@@ -111,7 +111,7 @@ export const Projects = () => {
                   <SiExpress color="68A063"/>
                 </div>
                 <div>
-                  <a
+                  <a style={{textDecoration:"none"}}
                     href="https://github.com/boobalannaresh/Pizza-Delivery-Frontend"
                     target="_blank"
                     rel="noreferrer"
@@ -120,7 +120,7 @@ export const Projects = () => {
                       FrontEnd
                     </span>
                   </a>
-                  <a
+                  <a style={{textDecoration:"none"}}
                     href="https://github.com/boobalannaresh/Pizza-Delivery-Backend"
                     target="_blank"
                     rel="noreferrer"
@@ -129,12 +129,12 @@ export const Projects = () => {
                       BackEnd
                     </span>
                   </a>
-                  <a
+                  <a style={{textDecoration:"none"}}
                     href="https://ornate-dolphin-0aa41e.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <span style={{ paddingRight: "25px", paddingLeft: "25px" }} type="button" className="btns onbt">
+                    <span  type="button" className="btns onbt">
                       Live
                     </span>
                   </a>
