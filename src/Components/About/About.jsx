@@ -24,7 +24,7 @@ export const About = () => {
             </h2>
             <Type />
             <p className="about__desc" data-aos="fade-right">
-            A self-taught developer with an interest in Computer Science.
+            I craft websites that are as unique as you and transform your ideas into seamless digital experiences
             </p>
 
           </div>
