@@ -39,8 +39,7 @@ export const Projects = () => {
                 <h2>Book MyShow Clone</h2>
                 <p>
                   Ticket booking is a process of selecting and making
-                  reservations for the cinema in a particular theatre via the
-                  online source.
+                  reservations for the cinema in online source.
                 </p>
                 <div>
                   <FaReact color="#5bc0de" />
