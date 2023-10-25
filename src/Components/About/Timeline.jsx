@@ -32,8 +32,46 @@ export const Timeline = () => {
           My <span className="different">Timeline 💫</span>
         </h2>
         <VerticalTimeline lineColor={linecolor}>
+
+        <VerticalTimelineElement
+            date={"Aug 2023 - Present"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              GUVI Geek Network Private Limited
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              in Chennai
+              
+            </h4>
+            <p data-aos="fade-right">
+              I'm working intern as "Mentor tech support"
+            </p>
+          </VerticalTimelineElement>
+
           <VerticalTimelineElement
-            date={"Oct  2022 - Apr  2023"}
+            date={"Oct 2022 - Apr 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -55,7 +93,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              GUVI IIT MADRAS
+              GUVI Geek Networks, IITM Research Park
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
