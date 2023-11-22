@@ -201,7 +201,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              SKP Engineering Collage
+              S.K.P Institute of technology
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
