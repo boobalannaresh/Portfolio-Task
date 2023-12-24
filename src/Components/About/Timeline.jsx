@@ -34,7 +34,7 @@ export const Timeline = () => {
         <VerticalTimeline lineColor={linecolor}>
 
         <VerticalTimelineElement
-            date={"Aug 2023 - Present"}
+            date={"Aug 2023 - Nov 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -66,7 +66,7 @@ export const Timeline = () => {
               
             </h4>
             <p data-aos="fade-right">
-              I'm working intern as "Mentor tech support"
+              I worked intern as "Tech support" in Full Stack Development
             </p>
           </VerticalTimelineElement>
 
