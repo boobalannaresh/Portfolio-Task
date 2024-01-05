@@ -108,6 +108,41 @@ export const Timeline = () => {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
+            date={"Jan 2021 - Oct 2022"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              A.T.M  Trust
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              in Chennai
+            </h4>
+            <p data-aos="fade-right">
+            Worked as a Co-ordinator
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
             date={"Nov 2018 - Dec 2019"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
